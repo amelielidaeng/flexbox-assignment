@@ -71,15 +71,15 @@
 
 .square__stretch {
     height: 120px; 
-    /*tried to get it stretch but could get it to work. 
-    not sure why? also dont get how to align the text*/
 }
 
 .square__wide {
-/*    flex-grow: 2; made it grow too much. could not figure out why? */
-    width: 156px;
+/*  Flex-grow: 2;    having trouble getting the flex 
+grow to work like I want. i understand it works relatively
+to the other items but it's either same size or really long
+ok flex-basis was the solution...*/
+    flex-basis: 156px;
 }
-
 
 /*circles below*/
 
